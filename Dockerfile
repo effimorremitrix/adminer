@@ -1,4 +1,4 @@
-FROM adminer:4.7.2
+FROM adminer:5.4.2
 
 # change this to your preferred design.
 # Full list at https://github.com/vrana/adminer/tree/master/designs

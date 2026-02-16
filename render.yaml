@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: adminer
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ADMINER_DESIGN
+        value: nette
+      - key: ADMINER_PLUGINS
+        value: dump-alter dump-json dump-zip dump-bz2 tables-filter
